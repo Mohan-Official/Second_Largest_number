@@ -1,11 +1,14 @@
 //Algorithm for Second Largest Number....
+
 Step_1:
-Initialize two variables, max and secondMax, to the smallest possible value.
+    Initialize two variables, Maximum and Second_Maximum.
 Step_2:
-Loop through the array, comparing each element to max and secondMax.
+    Initialize the Second_Maximum to the smallest possible value.
 Step_3:
-If the current element is greater than max, set secondMax to max and max to the current element.
+    Compare the each element to Maximum and Second_Maximum, by using Loop.
 Step_4:
-If the current element is between max and secondMax, set secondMax to the current element.
+    If the current element is greater than Maximum, then set the Second_Maximum as Maximum and Maximum as the current element.
 Step_5:
-After the loop, the second largest number will be stored in the secondMax variable.
+    If the current element is between Maximum and Second_Maximum, then set Second_Maximum to the current element.
+Step_6:
+    After the loop, the second largest number will be stored in the Second_Maximum variable.
